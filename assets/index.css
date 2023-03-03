@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: "iran-sanse";
+  src: url("./fonts/IRANSansWeb.ttf");
+}
+* {
+  font-family: iran-sanse;
+}
+.fade-enter-active, .fade-leave-active {
+  transition: all 0.4s ease-out;
+}
+
+.fade-enter, .fade-leave-to {
+  opacity: 0;
+}
+
